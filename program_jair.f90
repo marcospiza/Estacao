@@ -46,6 +46,7 @@ do I = 1,N_dados
    S = ( 4098 * ES ) / ( ( T + 237.3 ) **2 )
    EA = ( UR(I) * ES ) / 100.
    G = TMAX(I) - TMIN(I)
+   !! Não tem até o momento nenhum valore associado a DM
    D = ( 0.409 *SIN ( ( ( PI * 2 / 365. ) * DJ(DM, MES, ANO) ) - 1.39 ) ) ! Radiano
    
    
